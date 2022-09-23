@@ -24,6 +24,7 @@
 * Garbage Collection
 * Manage memory allocation
 * Wrapper classes
+* Static
 
 ### Resources.
 * [OOP in Java - Kunal kushwaha](https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk)
