@@ -11,6 +11,7 @@ public class Employee extends Person {
         this.salary=salary;
     }
 
+
     public void printEmpolyeeInfo(){
        System.out.println("Employee name : "+name
        +"\n gender : "+gender
