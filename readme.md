@@ -9,10 +9,10 @@
 
 ### 4 Pillars of OOP.
 * Polymorphism
-  * Overloading
-  * Overriding
-    * Compile time/Static
-    * Runtime/Dynamic
+  * Compile time/Static
+    * Overloading
+  * Runtime/Dynamic
+    * Overriding
 * Abstraction
   * It is design level.
   * Abstract - tell us what to do but not how to do.
@@ -45,3 +45,4 @@
 
 ### Resources.
 * [OOP in Java - Kunal kushwaha](https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk)
+* [Principles - Inheritance, Polymorphism, Encapsulation, Abstraction](https://github.com/AlFahimBinFaruk/OOP_All_You_Need_To_Know/tree/main/assets/pdfs)
