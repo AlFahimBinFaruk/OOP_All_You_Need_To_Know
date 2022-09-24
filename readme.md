@@ -14,6 +14,11 @@
 * Abstraction
 * Encapsulation
 * Inheritance
+  * Single inheritance.
+  * Multiple inheritance.
+  * Multilevel inheritance.
+  * Hierarchical inheritance
+  * Hybrid inheritance.
 
 ### Important Topics.
 * Constructors
