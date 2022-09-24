@@ -11,6 +11,8 @@
 * Polymorphism
   * Overloading
   * Overriding
+    * Compile time/Static
+    * Runtime/Dynamic
 * Abstraction
 * Encapsulation
 * Inheritance
@@ -32,6 +34,8 @@
 * Wrapper classes
 * Static
 * Interfaces
+* Type Casting.
+* Access modifiers/Controllers.
 
 ### Resources.
 * [OOP in Java - Kunal kushwaha](https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk)
