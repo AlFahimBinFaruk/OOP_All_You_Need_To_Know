@@ -14,9 +14,13 @@
     * Compile time/Static
     * Runtime/Dynamic
 * Abstraction
-  * Abstract -> tell us what to do but not how to do.
+  * It is design level.
+  * Abstract - tell us what to do but not how to do.
+  * Interfaces.
 * Encapsulation
+  * It is implementation level.
   * Private
+  * getter and setter
 * Inheritance
   * Single inheritance.
   * Multiple inheritance.
