@@ -10,16 +10,12 @@ protected applies only when inheritance is involved.
 * When no access modifier is used, then by default the member of a class is public within its own package,
 but cannot be accessed outside of its package.
 
-            │ Class │ Package │ Subclass │ Subclass │ World
-            │       │         │(same pkg)│(diff pkg)│(diff pkg & not subclass)
-────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
-public      │   +   │    +    │    +     │     +    │   +
-────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
-protected   │   +   │    +    │    +     │     +    │
-────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
-no modifier │   +   │    +    │    +     │          │
-────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
-private     │   +   │         │          │          │
+|                      | class | package | subclass(same pkg) | subclass(diff pkg) | World(diff pkg & not subclass) |
+|----------------------|-------|---------|--------------------|--------------------|--------------------------------|
+| public               | +     | +       | +                  | +                  | +                              |
+| protected            | +     | +       | +                  | +                  |                                |
+| no modifier(default) | +     | +       | +                  |                    |                                |
+| private              | +     |         |                    |                    |                                |
 
 * **+** : accessible
 * **blank** : not accessible
