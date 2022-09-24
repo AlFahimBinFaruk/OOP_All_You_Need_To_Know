@@ -47,7 +47,7 @@
 * While encapsulation groups together data and methods that act upon the data, data abstraction deal with exposing the interface to the user and hiding the details of implementation.
 * Encapsulated classes are java classes that follow data hiding and abstraction while We can implement abstraction by using abstract classes and interfaces.
 * Encapsulation is a procedure that takes place at the implementation level, while abstraction is a design-level process.
-
+* <img height="500" src="../../assets/images/abstraction_vs_encapsulation.png" width="700"/>
 ### Abstraction Important Resources.
 * <a href="https://www.geeksforgeeks.org/abstraction-in-java-2/">Abstraction in Java</a>
 * <a href="https://www.w3schools.com/java/java_abstract.asp">Java Abstraction</a>
