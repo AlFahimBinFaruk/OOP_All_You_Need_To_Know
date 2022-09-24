@@ -14,7 +14,9 @@
     * Compile time/Static
     * Runtime/Dynamic
 * Abstraction
+  * Abstract -> tell us what to do but not how to do.
 * Encapsulation
+  * Private
 * Inheritance
   * Single inheritance.
   * Multiple inheritance.
