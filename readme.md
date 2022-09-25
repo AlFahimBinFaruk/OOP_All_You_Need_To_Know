@@ -53,6 +53,7 @@
 * Packages.
 * Lambda.
 * Exception handling.
+* Object Cloning.
 
 ### Resources.
 * [OOP in Java - Kunal kushwaha](https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk)

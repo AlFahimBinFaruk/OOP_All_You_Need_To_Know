@@ -49,3 +49,4 @@
 ### Important resources
 * [Throw-Throws in Java - geeks for geeks](https://www.geeksforgeeks.org/throw-throws-java/)
 * [List of Java Exceptions and Errors - programming guide](https://programming.guide/java/list-of-java-exceptions.html)
+* [Throws explained - the conceptual](https://www.youtube.com/watch?v=S-N0UtCkzF0)
