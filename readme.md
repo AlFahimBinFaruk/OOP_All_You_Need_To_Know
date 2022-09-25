@@ -17,6 +17,7 @@
   * It is design level.
   * Abstract - tell us what to do but not how to do.
   * Interfaces.
+  * Lambda.
 * Encapsulation
   * It is implementation level.
   * Private
@@ -50,6 +51,7 @@
   * It defines the scope where the attribute/method/constructor can be accessed.
   * Public,Private,Static,Protected,Final.
 * Packages.
+* Lambda
 
 ### Resources.
 * [OOP in Java - Kunal kushwaha](https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk)
