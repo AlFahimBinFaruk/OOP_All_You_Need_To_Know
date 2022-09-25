@@ -51,7 +51,8 @@
   * It defines the scope where the attribute/method/constructor can be accessed.
   * Public,Private,Static,Protected,Final.
 * Packages.
-* Lambda
+* Lambda.
+* Exception handling.
 
 ### Resources.
 * [OOP in Java - Kunal kushwaha](https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk)
