@@ -40,13 +40,13 @@
   * this
   * super
   * new
-* Garbage Collection
-* Manage memory allocation
+* **Garbage Collection**
+* **Manage memory allocation**
 * Wrapper classes
   * The wrapper class of type **int** is **Integer**
 * Static
 * Interfaces
-* Type Casting.
+* **Type Casting.**
 * Access modifiers/Controllers.
   * It defines the scope where the attribute/method/constructor can be accessed.
   * Public,Private,Static,Protected,Final.
@@ -54,6 +54,8 @@
 * Lambda.
 * Exception handling.
 * Object Cloning.
+* **Collection Module/Collection Frameworks**.
+* Enums.
 
 ### Resources.
 * [OOP in Java - Kunal kushwaha](https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk)
