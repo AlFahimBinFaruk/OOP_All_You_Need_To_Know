@@ -1,6 +1,8 @@
 ### What is Abstraction?
 * Data abstraction is the process of hiding certain details and showing only essential information to the user.
   Abstraction can be achieved with either **abstract** classes or **interfaces** 
+* It hides the unnecessary code details from the user. Also,  when we do not want to give out sensitive parts of our code implementation and this is where data abstraction came.
+
 * Abstraction refers to hiding the internal implementation of the feature and only showing the functionality to the users.
 * Only **classes** and **methods** can be abstracted.
 * You cannot create abstract **constructor**.
@@ -53,6 +55,9 @@
 ### Abstraction Important Resources.
 * <a href="https://www.geeksforgeeks.org/abstraction-in-java-2/">Abstraction in Java</a>
 * <a href="https://www.w3schools.com/java/java_abstract.asp">Java Abstraction</a>
+* [Abstraction in python](https://www.geeksforgeeks.org/abstract-classes-in-python/)
+* [Interface module python](https://www.geeksforgeeks.org/python-interface-module/)
+* [Data hiding in python](https://www.geeksforgeeks.org/object-oriented-programming-in-python-set-2-data-hiding-and-object-printing/)
 * <a href="https://www.youtube.com/watch?v=XUvnPcnYsHM">Java Abstraction theory - Anisul islam</a>
 * <a href="https://www.youtube.com/watch?v=P_Yb5CQFh3Y">Java Abstraction practical - Anisul islam</a>
 

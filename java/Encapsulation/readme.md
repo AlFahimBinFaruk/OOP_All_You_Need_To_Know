@@ -3,6 +3,7 @@
   It is the mechanism that binds together code and the data it manipulates.
   Another way to think about encapsulation is, that it is a protective shield that
   prevents the data from being accessed by the code outside this shield.
+  This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data.
 
 #### Encapsulation is a process of :
 * Packing **variables** and **methods** in a single unit.
@@ -33,3 +34,4 @@
 ### Important resources.
 * [Java Encapsulation - w3Schools](https://www.w3schools.com/java/java_encapsulation.asp)
 * [Java Encapsulation - geeks for geeks](https://www.geeksforgeeks.org/encapsulation-in-java/)
+* [Encapsulation in python](https://www.geeksforgeeks.org/encapsulation-in-python/)
