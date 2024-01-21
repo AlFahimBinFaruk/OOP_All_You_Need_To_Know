@@ -2,6 +2,7 @@
 * Inheritance is an important pillar of OOP(Object-Oriented Programming).
   It is the mechanism  by which one class is allowed to inherit the features(fields and methods) of another class.
 * Important terminology:
+    * **Class:** Class is a set of objects which shares common characteristics/ behavior and common properties/ attributes. Class is not a real-world entity. It is just a template or blueprint or prototype from which objects are created.
     * **Super Class:** The class whose features are inherited is known as a superclass(or a base class or a parent class).
     * **Sub Class:** The class that inherits the other class is known as a subclass(or a derived class, extended class, or
       child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.
@@ -30,7 +31,7 @@
 
 
 * To inherit a class, you simply incorporate the definition of one class into another by using the extends keyword.
-  ```bash
+  ```java
   class subclass-name extends superclass-name { // body of class
   } 
   ```
@@ -49,7 +50,7 @@ those parts of the object defined by the superclass.
   * plainbox      =  weightbox;
   * (superclass)     (subclass)
 
-```bash
+```java
 SUPERCLASS ref = new SUBCLASS();    // HERE ref can only access methods which are available in SUPERCLASS
 ```
 
@@ -58,10 +59,10 @@ SUPERCLASS ref = new SUBCLASS();    // HERE ref can only access methods which ar
 super has two general forms. The first calls the superclass’ constructor.
 The second is used to access a member of the superclass that has been hidden by a member of a subclass.
 
-```bash
+```java
 BoxWeight(double w, double h, double d, double m) {
-super(w, h, d); // call superclass constructor
-weight = m;
+    super(w, h, d); // call superclass constructor
+    weight = m;
 }
 ```
 * Here, BoxWeight( ) calls super( ) with the arguments w, h, and d. This causes the Box constructor to be called,
@@ -70,30 +71,30 @@ It only needs to initialize the value unique to it: weight. This leaves Box free
 * Thus, super( ) always refers to the superclass immediately above the calling class.
 This is true even in a multileveled hierarchy.
 
-```bash
+```java
 class Box {
-private double width;
-private double height;
-private double depth;
+    private double width;
+    private double height;
+    private double depth;
 
      // construct clone of an object
 
-     Box(Box ob) { // pass object to constructor
-       width = ob.width;
-       height = ob.height;
-       depth = ob.depth;
-     }
+    Box(Box ob) { // pass object to constructor
+      width = ob.width;
+      height = ob.height;
+      depth = ob.depth;
+    }
 }
 
 class BoxWeight extends Box {
-double weight; // weight of box
+    double weight; // weight of box
 
      // construct clone of an object
 
-     BoxWeight(BoxWeight ob) { // pass object to constructor
-        super(ob);
-        weight = ob.weight;
-     }
+    BoxWeight(BoxWeight ob) { // pass object to constructor
+      super(ob);
+      weight = ob.weight;
+    }
 }
 
 ```
