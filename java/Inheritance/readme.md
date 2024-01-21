@@ -31,10 +31,10 @@
 
 
 * To inherit a class, you simply incorporate the definition of one class into another by using the extends keyword.
-  ```java
-  class subclass-name extends superclass-name { // body of class
-  } 
-  ```
+```java
+class subclass-name extends superclass-name { // body of class
+} 
+```
 * You can only specify one superclass for any subclass that you create. Java does not support the inheritance of
 multiple superclasses into a single subclass. You can, as stated, create a hierarchy of inheritance in which a subclass
 becomes a superclass of another subclass. However, no class can be a superclass of itself.
@@ -168,3 +168,5 @@ will be executed.
 ### Resources.
 * [Inheritance In Java - geeks for geeks](https://www.geeksforgeeks.org/inheritance-in-java/)
 * [Java Inheritance - w3School](https://www.w3schools.com/java/java_inheritance.asp)
+* [Inheritance in Python](https://www.geeksforgeeks.org/inheritance-in-python/)
+* [Multiple inheritance in python](https://www.geeksforgeeks.org/multiple-inheritance-in-python/)
