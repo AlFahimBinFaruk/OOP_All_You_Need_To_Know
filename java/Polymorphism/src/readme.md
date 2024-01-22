@@ -31,7 +31,7 @@ versions of a method. When Java encounters a call to an overloaded method, it si
 whose parameters match the arguments used in the call.
 In some cases, Java’s automatic type conversions can play a role in overload resolution.
 
-```bash
+```java
 class OverloadDemo {
     void test(double a){
          System.out.println("Inside test(double) a: " + a);
@@ -56,46 +56,40 @@ Java elevates i to double and then calls test(double).
 Of course, if test(int) had been defined, it would have been called instead.
 * Java will employ its automatic type conversions only if no exact match is found.
 
-```bash
-Returning Objects:
-
-// Returning an object.
-class Test {
-    int a;
-    
-    Test(int i) {
-        a = i;
+```java
+class Helper {
+ 
+    // Method with 2 integer parameters
+    static int Multiply(int a, int b)
+    {
+        // Returns product of integer numbers
+        return a * b;
     }
+ 
+    // Method 2
+    // With same name but with 2 double parameters
+    static double Multiply(double a, double b)
+    {
+        // Returns product of double numbers
+        return a * b;
+    }
+}
+ 
+
+class GFG {
     
-    Test incrByTen() {
-        Test temp = new Test(a+10);
-        return temp;
+    public static void main(String[] args)
+    {
+        // Calling method by passing
+        // input as in arguments
+        System.out.println(Helper.Multiply(2, 4));
+        System.out.println(Helper.Multiply(5.5, 6.3));
     }
 }
 
-
-class RetOb {
-    public static void main(String args[]) {
-        Test ob1 = new Test(2);
-        Test ob2;
-        ob2 = ob1.incrByTen();
-        
-        System.out.println("ob1.a: " + ob1.a);
-        System.out.println("ob2.a: " + ob2.a);
-    }
-}
-
-Output:
-ob1.a: 2
-ob2.a: 12
 ```
 
 
-* As you can see, each time incrByTen( ) is invoked, a new object is created, and a reference to it is returned to the
-calling routine. Since all objects are dynamically allocated using new, you don’t need to worry about an object going
-out-of-scope because the method in which it was created terminates. The object will continue to exist as long as there
-is a reference to it somewhere in your program. When there are no references to it, the object will be reclaimed the
-next time garbage collection takes place.
 
 #### Overriding
 * In a class hierarchy, when a method in a subclass has the same name and type signature as a method in its superclass,
