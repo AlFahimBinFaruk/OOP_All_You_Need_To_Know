@@ -60,3 +60,4 @@
 ### Resources.
 * [OOP in Java - Kunal kushwaha](https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk)
 * [Principles - Inheritance, Polymorphism, Encapsulation, Abstraction](https://github.com/AlFahimBinFaruk/OOP_All_You_Need_To_Know/tree/main/assets/pdfs)
+* [Intro to Object Oriented Programming - Crash Course](https://www.youtube.com/watch?v=SiBw7os-_zI)

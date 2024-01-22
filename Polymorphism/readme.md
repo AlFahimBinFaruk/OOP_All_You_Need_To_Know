@@ -102,18 +102,11 @@ If they are not, then the two methods are simply overloaded.
 
 (Check display functions in box classes)
 
-* Dynamic Method Dispatch:
-  * Dynamic method dispatch is the mechanism by which a call to an overridden method is resolved at run time, rather than
-    compile time. Dynamic method dispatch is important because this is how Java implements run-time polymorphism.
-    Let’s begin by restating an important principle: a superclass reference variable can refer to a subclass object.
-    When an overridden method is called through a superclass reference, Java determines which version of that method to
-    execute based upon the type of the object being referred to at the time the call occurs. Thus, this determination is
-    made at run time.
-    In other words, it is the type of the object being referred to (not the type of the reference variable)
-    that determines which version of an overridden method will be executed.
-
-* If B extends A then you can override a method in A through B with changing the return type of method to B.
+* [Dynamic Method Dispatch](https://www.geeksforgeeks.org/dynamic-method-dispatch-runtime-polymorphism-java/)
 
 ### Important resources.
 * [Polymorphism is Java - GeeksForGeeks](https://www.geeksforgeeks.org/polymorphism-in-java/)
 * [Java Polymorphism - w3schools](https://www.w3schools.com/java/java_polymorphism.asp)
+* [Runtime VS Compile-time polymorphism](https://www.geeksforgeeks.org/difference-between-compile-time-and-run-time-polymorphism-in-java/)
+* [Polymorphism in python](https://www.geeksforgeeks.org/polymorphism-in-python/)  
+* [How to do method overloading in python](https://www.geeksforgeeks.org/python-method-overloading/)
