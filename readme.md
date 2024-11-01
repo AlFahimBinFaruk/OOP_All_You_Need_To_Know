@@ -1,6 +1,5 @@
 ## OOP all you need to know.
 #### 🎉🎉🎉 There are mainly 4 pillars of OOP others things are just "common sense".
-#### 🎇 In this repo I have use Java to Explain the examples of OOP.
 #### 🧨 Before starting this you have to have good knowledge about the architecture of the programming language you want to continue this on.  
 
 ### Fundamentals Knowledge.
